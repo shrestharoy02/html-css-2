@@ -40,13 +40,14 @@ nav i {
 }
 .center{
     height: 56%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding-left: 2rem;
 }
 .center .heading{
     height: 60%;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     padding: 0.5rem 0rem 0rem 1rem;
+    /* margin-bottom: 1em; */
 }
 .center .heading p{
     font-size: 4rem;
@@ -58,6 +59,8 @@ nav i {
 }
 .center .lower-center p{
     width: 30%;
+    margin-top: 1em;
+    padding-left: 1rem;
     font-size: 1.3rem;
     font-weight: 100;
     color: #565656;
@@ -79,4 +82,24 @@ nav i {
 }
 .elem i{
     font-size: 1.3rem;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+.elem:hover{
+    background-color: rgb(229, 233, 233);
+}
+.main .pic{
+    height: 34%;
+    width: 100%;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 74%;
 }
